@@ -21,12 +21,12 @@ simple method:
 ```js
 const { toJSON } = require('csv2json-parser');
 
-const objectArray = toJSON(csv_string); //returns an objectArray object format
+const objectArray = toJSON(csv_string); //returns an objectArray(default) object format
 
 ```
 using diferents object formats:
 ```js
-const objectArray = toJSON(csv_string, { type: 'keyArray' }); //returns an keyArray(default) object format
+const objectArray = toJSON(csv_string, { type: 'keyArray' }); //returns an keyArray object format
 ```
 using ```keyed``` object format:
 
