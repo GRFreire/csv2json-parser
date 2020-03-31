@@ -58,13 +58,13 @@ const csv = toCSV(object_or_array); //returns a csv string
  [
     {
         "id": 0,
-        "country": " Brazil",
-        "region": " South America"
+        "country": "Brazil",
+        "region": "South America"
     },
     {
         "id": 1,
-        "country": " United States",
-        "region": " North America"
+        "country": "United States",
+        "region": "North America"
     }
 ]
  ```
@@ -73,8 +73,8 @@ const csv = toCSV(object_or_array); //returns a csv string
  ```json
 {
    "id":[0,1],
-   "country":[" Brazil"," United States"],
-   "region":[" South America"," North America"]
+   "country":["Brazil", "United States"],
+   "region":["South America", "North America"]
 }
  ```
 
@@ -82,12 +82,12 @@ const csv = toCSV(object_or_array); //returns a csv string
  ```json
 {
    "0": {
-      "country": " Brazil",
-      "region": " South America"
+      "country": "Brazil",
+      "region": "South America"
    },
    "1": {
-      "country": " United States",
-      "region": " North America"
+      "country": "United States",
+      "region": "North America"
    }
 }
  ```
