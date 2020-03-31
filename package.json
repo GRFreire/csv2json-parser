@@ -1,0 +1,27 @@
+{
+  "name": "csv2json-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GRFreire/csv2json-parser.git"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "parser",
+    "converter",
+    "data",
+    "dataformat"
+  ],
+  "author": "GRFreire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GRFreire/csv2json-parser/issues"
+  },
+  "homepage": "https://github.com/GRFreire/csv2json-parser#readme"
+}
